@@ -1,11 +1,13 @@
-import './App.css'
+import { Footer } from './components/Footer/Footer'
+import { Header } from './components/Header/Header'
+import { Tour } from './pages/Tour/Tour'
 
 function App () {
   return (
     <div className=''>
-      <h1 className='text-3xl font-bold underline'>
-        Hello world!
-      </h1>
+      <Header />
+      <Tour />
+      <Footer />
     </div>
   )
 }
