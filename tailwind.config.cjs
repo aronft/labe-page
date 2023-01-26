@@ -6,6 +6,12 @@ module.exports = {
       md: '768px',
       lg: '976px',
       xl: '1440px'
+    },
+    colors: {
+      green: '#04ddb2',
+      white: '#fff',
+      black: '#333',
+      gray: '#767676'
     }
   },
   plugins: []
