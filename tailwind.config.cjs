@@ -1,7 +1,7 @@
 module.exports = {
   content: ['./src/**/*.{html,js,jsx}'],
   theme: {
-    screen: {
+    screens: {
       sm: '480px',
       md: '768px',
       lg: '976px',
@@ -12,6 +12,20 @@ module.exports = {
       white: '#fff',
       black: '#333',
       gray: '#767676'
+    },
+    borderRadius: {
+      none: '0px',
+      sm: '2px',
+      DEFAULT: '4px',
+      md: '6px',
+      lg: '8px',
+      xl: '12px',
+      '2xl': '16px',
+      '3xl': '24px',
+      full: '9999px'
+    },
+    fontFamily: {
+      serif: ['Montserrat', 'sans-serif']
     }
   },
   plugins: []
